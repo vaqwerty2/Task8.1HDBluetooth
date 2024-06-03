@@ -53,7 +53,7 @@ def attempt_bluetooth_connection(device_address):
             time.sleep(5)
 
 def main():
-    arduino_ble_address = "EC:62:60:81:68:DE"
+    arduino_ble_address = "78:21:84:ad:32:c2"
     ble_device = attempt_bluetooth_connection(arduino_ble_address)
 
     battery_service_uuid = UUID("180A")
