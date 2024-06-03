@@ -61,7 +61,7 @@ void loop() {
           analogWrite(ledPin, 64); // 25% intensity
           Serial.println("LED at 25% intensity");
         } 
-        else if (actualDistance < 30) {
+        else if (actualDistance > 30) {
           analogWrite(ledPin, 0); // LED OFF
           Serial.println("LED OFF");
         }
